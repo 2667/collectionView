@@ -29,9 +29,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor cyanColor];
+    //水平滚动的
     self.leftBtn.frame = CGRectMake(15, 100, self.view.bounds.size.width-30, 20);
+    //竖直滚动的
     self.rightBtn.frame = CGRectMake(15, 200, self.view.bounds.size.width-30, 20);
+    //水平竖直滚动的
     self.mixBtn.frame = CGRectMake(15, 300, self.view.bounds.size.width-30, 20);
+    //瀑布流
     self.fallsBtn.frame = CGRectMake(15, 400, self.view.bounds.size.width-30, 20);
     
     [self.view addSubview:self.fallsBtn];
